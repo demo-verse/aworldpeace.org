@@ -353,8 +353,7 @@ img{
 
 .decoration__data:hover{
   box-shadow: 0 3px 12px rgba(65,11,16,.15);
-  background-color: rgb(157, 135, 161);
-  
+  background-color: rgb(220, 213, 221);
 }
 
 
@@ -366,8 +365,8 @@ img{
 
 .decoration__title{
   font-size: var(--h3-font-size);
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 /*========== ACCESSORIES ==========*/
