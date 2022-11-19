@@ -321,6 +321,8 @@ img{
   color: var(--circles-for-impact-button-color-alt);
 }
 
+
+
 /*========== SHARE ==========*/
 .share__data{
   text-align: center;
@@ -350,7 +352,7 @@ img{
 
 .decoration__data:hover{
   box-shadow: 0 3px 12px rgba(65,11,16,.15);
-  background-color: rgb(173, 208, 126);
+  background-color: rgb(110, 48, 121);
   
 }
 
@@ -500,8 +502,8 @@ img{
 .footer__copy{
   text-align: center;
   font-size: var(--small-font-size);
-  color: var(--text-color-light);
-  margin-top: 4rem;
+  /* color: var(--text-color-light); */
+  margin-top: 1rem;
 }
 
 /*========== MEDIA QUERIES ==========*/
@@ -675,4 +677,12 @@ img{
   h2.partnership__title {
     color: #161212;
   }
+}
+
+
+.last-peace {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,9 +1,17 @@
-body {
+/* body {
     background-color: #131417 f0;
     margin-top: 10%;
     height: 100%;
     width: 100%;
+} */
+
+.last-peace {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .d-flex {
     display: flex;
     flex-wrap: wrap;
@@ -13,15 +21,17 @@ body {
     max-width: 750px;
     margin: 4rem auto;
     font-family: Roboto;
+    /* background-color: bisque; */
 }
 .container .card {
     color: #fff;
     background: rgba(233, 227, 233, 0.2);
     box-shadow: -4px 12px 0px #000;
     width: 14rem;
-    height: 22rem;
+    height: 24rem;
     border-radius: 8px;
     overflow: hidden;
+    
 }
 .container .card .card-img {
     perspective: 1000px;
@@ -79,3 +89,5 @@ body {
     font-weight: 600;
     font-size: 0.84rem;
 }
+
+
