@@ -16,7 +16,7 @@ body {
 }
 .container .card {
     color: #fff;
-    background: rgba(231, 174, 240, 0.2);
+    background: rgba(233, 227, 233, 0.2);
     box-shadow: -4px 12px 0px #000;
     width: 14rem;
     height: 22rem;
@@ -75,7 +75,7 @@ body {
 .container .card .card-body small {
     opacity: 0.6;
     margin-bottom: 0;
-    color: #000;
+    color: rgb(223, 32, 32);
     font-weight: 600;
     font-size: 0.84rem;
 }
