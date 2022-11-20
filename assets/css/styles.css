@@ -368,12 +368,12 @@ img{
 }
 
 /*========== ACCESSORIES ==========*/
-.accessory__container{
+.cause__container{
   grid-template-columns: repeat(2,1fr);
   padding-bottom: 2rem;
 }
 
-.accessory__content{
+.cause__content{
   position: relative;
   display: grid;
   padding: .25rem .75rem .75rem;
@@ -382,39 +382,39 @@ img{
   border-radius: 1rem;
 }
 
-.accessory__content:hover{
+.cause__content:hover{
   box-shadow: 0 3px 12px rgba(65,11,16,.15);
 }
 
-.accessory__img{
+.cause__img{
   width: 110px;
   justify-self: center;
   margin-bottom: .25rem;
 }
 
-.accessory__title, .accessory__category{
+.cause__title, .cause__category{
   text-align: center;
 }
 
-.accessory__title{
+.cause__title{
   font-size: var(--normal-font-size);
   text-align: center;
 }
 
-.accessory__category{
+.cause__category{
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-1);
   color: var(--text-color-light);
 }
 
-.accessory__preci{
+.cause__preci{
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
   margin-top: 22px;
   padding: 0px;
 }
 
-.accessory__button{
+.cause__button{
   position: absolute;
   bottom: 0;
   right: 0;
@@ -604,25 +604,25 @@ img{
     padding: 0 2rem;
   }
 
-  .accessory__container{
+  .cause__container{
     grid-template-columns: repeat(3,224px);
     justify-content: center;
   }
 
-  .accessory__content{
+  .cause__content{
     padding: .5rem 1.5rem 1.5rem;
   }
 
-  .accessory__img{
+  .cause__img{
     width: 120px;
     margin-bottom: var(--mb-1);
   }
 
-  .accessory__title, .accessory__category{
+  .cause__title, .cause__category{
     text-align: center;
   }
 
-  .accessory__button{
+  .cause__button{
     padding: .75rem;
   }
 
