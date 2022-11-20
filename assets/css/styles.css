@@ -398,6 +398,7 @@ img{
 
 .accessory__title{
   font-size: var(--normal-font-size);
+  text-align: center;
 }
 
 .accessory__category{
@@ -409,6 +410,8 @@ img{
 .accessory__preci{
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
+  margin-top: 22px;
+  padding: 0px;
 }
 
 .accessory__button{
@@ -616,7 +619,7 @@ img{
   }
 
   .accessory__title, .accessory__category{
-    text-align: initial;
+    text-align: center;
   }
 
   .accessory__button{
