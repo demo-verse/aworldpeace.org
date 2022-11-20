@@ -430,7 +430,8 @@ img{
 }
 
 .send__title, .send__description{
-  color: #fff;
+  color: black;
+  padding: 40px;
 }
 
 .send__description{
