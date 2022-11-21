@@ -20,12 +20,14 @@ body {
     justify-content: space-between;
 }
 .container {
-    max-width: 750px;
+    max-width: 80%;
     margin: 4rem auto;
     font-family: Roboto;
     /* background-color: bisque; */
 }
 .container .card {
+    margin-left: 4px;
+    margin-bottom: 30px;
     color: #fff;
     background: rgba(233, 227, 233, 0.2);
     box-shadow: -4px 12px 0px #000;
@@ -90,6 +92,36 @@ body {
     color: rgb(223, 32, 32);
     font-weight: 600;
     font-size: 0.84rem;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .container .card {
+        margin-left: 40%;
+        margin-bottom: 30px;
+        color: #fff;
+        background: rgba(233, 227, 233, 0.2);
+        box-shadow: -4px 12px 0px #000;
+        width: 14rem;
+        height: 24rem;
+        border-radius: 8px;
+        overflow: hidden;
+        
+    }   
+}
+
+@media screen and (max-width: 480px){
+    .container .card {
+        margin-left: 20%;
+        margin-bottom: 30px;
+        color: #fff;
+        background: rgba(233, 227, 233, 0.2);
+        box-shadow: -4px 12px 0px #000;
+        width: 14rem;
+        height: 24rem;
+        border-radius: 8px;
+        overflow: hidden;
+        
+    }   
 }
 
 

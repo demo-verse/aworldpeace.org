@@ -184,13 +184,14 @@ img{
 }
 
 .nav__link, .nav__logo, .nav__toggle{
-  color: var(--title-color);
-  font-weight: var(--font-semi-bold);
+  /* color: var(--title-color);
+  font-weight: var(--font-semi-bold); */
+  margin-top: 0.8rem;
 }
 
-.nav__logo:hover{
+/* .nav__logo:hover{
   color: var(--first-color);
-}
+} */
 
 .nav__link{
   transition: .3s;
@@ -431,7 +432,7 @@ img{
 
 .send__title, .send__description{
   color: black;
-  padding: 40px;
+  padding: 0px;
 }
 
 .send__description{
