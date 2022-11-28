@@ -183,10 +183,24 @@ img {
   margin-bottom: var(--mb-3);
 }
 
+.cause__content:hover>.cause__img {
+  display: none;
+}
+
+.cause__content:hover>p {
+  display: flex;
+}
+
+.cause__content >p {
+  display: none;
+}
+
+
 .nav__link, .nav__logo, .nav__toggle {
   /* color: var(--title-color);
   font-weight: var(--font-semi-bold); */
   margin-top: 0.8rem;
+ 
 }
 
 /* .nav__logo:hover{
@@ -627,11 +641,11 @@ img {
     display: none;
   }
 
-  .cause__content:hover>span {
+  .cause__content:hover>p {
     display: flex;
   }
 
-  .cause__content>span {
+  .cause__content >p {
     display: none;
   }
 
