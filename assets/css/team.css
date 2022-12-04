@@ -22,7 +22,6 @@ body {
 .container {
     max-width: 80%;
     margin: 4rem auto;
-    font-family: Roboto;
     /* background-color: bisque; */
 }
 .container .card {
@@ -89,7 +88,7 @@ body {
 .container .card .card-body small {
     opacity: 0.6;
     margin-bottom: 0;
-    color: rgb(223, 32, 32);
+    color: rgb(17, 15, 15);
     font-weight: 600;
     font-size: 0.84rem;
 }
