@@ -186,7 +186,6 @@ img {
     /* color: var(--title-color);
     font-weight: var(--font-semi-bold); */
     /* margin-top: 0.8rem; */
-    
     color: black!important;
    
   }
@@ -216,6 +215,8 @@ img {
   font-weight: var(--font-semi-bold); */
   margin-top: 0.8rem;
   color: white;
+  font-weight: 600;
+
 }
 
 /* .nav__logo:hover{
@@ -227,7 +228,10 @@ img {
 }
 
 .nav__link:hover {
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  color: black;
+  background-color: white;
+  padding: 1.2rem;
 }
 }
 
